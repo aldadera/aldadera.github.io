@@ -46,6 +46,7 @@ export default defineConfig({
 	prefetch: true,
 	// ! Please remember to replace the following site property with your own domain
 	site: "https://navynda.github.io",
+	base: "navynda",
 	vite: {
 		optimizeDeps: {
 			exclude: ["@resvg/resvg-js"],
