@@ -46,7 +46,7 @@ export default defineConfig({
 	prefetch: true,
 	// ! Please remember to replace the following site property with your own domain
 	site: "https://astronv.github.io",
-	base: "astronv",
+	//base: "astronv",
 	vite: {
 		optimizeDeps: {
 			exclude: ["@resvg/resvg-js"],
