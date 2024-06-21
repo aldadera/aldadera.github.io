@@ -14,7 +14,7 @@ import { remarkReadingTime } from "./src/utils/remark-reading-time";
 // https://astro.build/config
 export default defineConfig({
 	image: {
-		domains: ["astro.build"],
+		domains: ["aldadera.github.io"],
 	},
 	integrations: [
 		expressiveCode(expressiveCodeOptions),
@@ -46,7 +46,7 @@ export default defineConfig({
 	prefetch: true,
 	// ! Please remember to replace the following site property with your own domain
 	site: "https://aldadera.github.io",
-	//base: "astronv",
+	//base: "aldadera",
 	vite: {
 		optimizeDeps: {
 			exclude: ["@resvg/resvg-js"],
